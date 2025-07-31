@@ -1,7 +1,7 @@
 global _start
 
 section .data
-    message db "Hola Mundo", 0xA
+    message db "Hola Mundo :3", 0xA
     message_length equ $ - message
 
 section .text
